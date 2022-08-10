@@ -10,6 +10,7 @@ Application link: https://calendar-react-app-spa.herokuapp.com/
 
 ## Setup
 To run this application:
-1. npm run build
-2. npm run start
-3. Go to http://localhost:3001/
+1. npm install
+2. npm run build
+3. npm run start
+4. Go to http://localhost:3001/
