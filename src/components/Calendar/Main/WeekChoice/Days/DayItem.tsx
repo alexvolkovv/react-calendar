@@ -3,12 +3,6 @@ import styled from "styled-components";
 import { DayType } from "../../../../../models/DayType";
 import moment from "moment";
 
-type DayItemProps = {
-  currentDay?: boolean;
-  theme?: any;
-  day: DayType;
-};
-
 const StyledDayItem = styled.div`
   display: flex;
   flex-direction: column;
@@ -39,6 +33,12 @@ const StyledDayNumber = styled.span`
       color: white;
   `}
 `;
+
+type DayItemProps = {
+  currentDay?: boolean;
+  theme?: any;
+  day: DayType;
+};
 
 const DayItem: FC<DayItemProps> = (props) => {
   const letterDay = moment([
